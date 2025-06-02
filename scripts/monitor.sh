@@ -8,3 +8,5 @@ df -h | grep -v tmpfs                      # Human-readable disk space, excludin
 
 echo "[+] Top 5 CPU-consuming processes:"
 ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -n 6
+
+read -p "Press enter to return..."
